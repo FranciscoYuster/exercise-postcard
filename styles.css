@@ -3,7 +3,7 @@ body {
 }
 
 * {
-	border: 1px dashed red;
+	border: 0px dashed red;
 	min-height: 10px;
 }
 
@@ -42,10 +42,19 @@ p {
 
 .body-left,
 .body-right {
-	padding: x;
+	padding: 0.5%;
 }
 
 input {
-	border: x;
-	border-bottom: grey;
+	border: none;
+	border-bottom: 2px solid grey;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+button {
+	background-color: darkgrey;
+	padding: 2px;
 }
